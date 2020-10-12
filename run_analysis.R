@@ -10,7 +10,7 @@ features <- read.table('UCI_HAR_Dataset/features.txt')
 actLabels = read.table('UCI_HAR_Dataset/activity_labels.txt')
 
 
-# Descriptive variable names:
+# Descriptive variable names (task number 4):
 colnames(x_train) <- features[, 2]
 colnames(x_test) <- features[, 2]
 
